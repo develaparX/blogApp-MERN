@@ -12,7 +12,10 @@ const ThemeToggle = () => {
     console.log(theme)
 
     return (
-        <div className={styles.container} onClick={toggle} style={theme === "dark" 
+        <div 
+        className={styles.container} 
+        onClick={toggle}
+        style={theme === "dark" 
             ? { backgroundColor: "white" } 
             : { backgroundColor: "#0f172a" }}
         > 
