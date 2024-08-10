@@ -2,7 +2,7 @@
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: 60px;
+margin: 150px 0px;
 }
 
 .wrapper{
@@ -24,6 +24,10 @@ margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.socialButton:hover{
+    color: grey;
 }
 
 .socialButton:first-child{

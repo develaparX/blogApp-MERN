@@ -80,3 +80,16 @@ a {
         max-width: 475px;
     }
 }
+
+.ql-container{
+    font-size: 28px !important;
+}
+
+.quill .ql-container .ql-editor::before {
+    color: #e7e7df !important;
+}
+
+
+.ql-tooltip.ql-hidden{
+    display: none !important;
+}
